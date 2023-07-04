@@ -1,7 +1,12 @@
 .blog-main {
     display: flex;
 }
-
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .blog-main .container {
     display: flex;
     justify-content: center;
