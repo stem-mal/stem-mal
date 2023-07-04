@@ -64,7 +64,7 @@ nav a {
 }
 
 nav a:hover, .link:hover {
-    color: #00ffff;
+    color: #f0fd78;
     transition: 0.4s;
 }
 
@@ -159,6 +159,7 @@ footer p {
     color : white;
     font-family: sans-serif;
     font-size: 13px;
+    margin-bottom: 5px;
 }
 @media (max-width: 980px) {
     .top-footer {
