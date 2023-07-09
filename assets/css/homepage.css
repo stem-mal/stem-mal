@@ -523,6 +523,9 @@ h1 {
     font-weight: bold;
     text-align: left;
 }
+#job-downloads h2 {
+    font-family: 'Poppins', sans-serif;
+}
 @media (min-width: 797px) {
     #home-image img{
         width: 700px;
