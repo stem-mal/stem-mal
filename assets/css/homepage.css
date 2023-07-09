@@ -243,11 +243,17 @@ h1 {
 
 /* Slideshow container */
 .slideshow-container {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
     max-width: 1000px;
+    justify-self: center;
     position: relative;
     margin: auto;
 }
-
+.slideshow-container img {
+    max-height: 80vh;
+}
 /* Hide the images by default */
 .mySlides {
     display: none;
@@ -360,7 +366,7 @@ h1 {
     text-align: center;
     width: 185px;
 }
-#learn-items button {
+#learn-items button, input[type=submit] {
     cursor: pointer;
     border-style: none;
     background-color: #8eaac0; /* Green */
@@ -375,7 +381,7 @@ h1 {
     transition-duration: 0.2s;
     cursor: pointer;
 }
-#learn-items button:hover {
+#learn-items button:hover, input[type=submit]:hover {
     background-color: #a2c1d9;
 }
 #learn-container h1{ 
@@ -465,6 +471,22 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    margin-bottom: 30px;
+
+}
+.contact textarea {
+    resize: none;
+}
+.contact .social-share {
+    padding: 0px;
+    margin-bottom: 35px;
 }
 
 #about-us {
@@ -525,6 +547,16 @@ h1 {
 }
 #job-downloads h2 {
     font-family: 'Poppins', sans-serif;
+}
+#conference-div, #application-div {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 @media (min-width: 797px) {
     #home-image img{
