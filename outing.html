@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEM MAL</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div id="nav" class="container">
+            <a id="logo" class="nav" href="index.html">STEM MAL</a>
+            <div class="nav-items">
+                <ul class="nav">
+                    <a class="nav" href="about.html">
+                        <li class="nav">About</li>
+                    </a>
+                    <a class="nav" href="our-team.html">
+                        <li class="nav">Team</li>
+                    </a>
+                    <a class="nav" href="contact.html">
+                        <li class="nav">Contact</li>
+                    </a>
+                    <a class="nav" href="application.html">
+                        <li class="nav">Application</li>
+                    </a>
+                    <a class="nav" href="jobs.html">
+                        <li class="nav">Jobs</li>
+                    </a>
+                    <a class="nav" href="conference.html">
+                        <li class="nav">Conference</li>
+                    </a>
+                    <a class="nav" href="outing.html">
+                        <li class="nav">Outing</li>
+                    </a>
+                    <a class="nav" href="articles.html">
+                        <li class="nav">Articles</li>
+                    </a>
+                </ul>
+
+            </div>
+    </nav>
+
+    <main>
+        <section class="our-blog" id="outing">
+            <div class="containter">
+                <h1>Outing S'23</h1>
+                <div class="rectangle"></div>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+                <span class="dot" onclick="currentSlide(10)"></span>
+                <span class="dot" onclick="currentSlide(11)"></span>
+                <span class="dot" onclick="currentSlide(12)"></span>
+                <span class="dot" onclick="currentSlide(13)"></span>
+                <span class="dot" onclick="currentSlide(14)"></span>
+                <span class="dot" onclick="currentSlide(15)"></span>
+                <br>
+                <i id="play" class="fa fa-play" aria-hidden="true" onclick="play()"></i>
+                <i id="pause" class="fa fa-pause" aria-hidden="true" onclick="pause()"></i>
+
+            </div>
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 15</div>
+                    <img src="assets/images/outing/1.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 15</div>
+                    <img src="assets/images/outing/2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 15</div>
+                    <img src="assets/images/outing/3.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 15</div>
+                    <img src="assets/images/outing/4.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 15</div>
+                    <img src="assets/images/outing/5.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 15</div>
+                    <img src="assets/images/outing/6.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">7 / 15</div>
+                    <img src="assets/images/outing/7.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">8 / 15</div>
+                    <img src="assets/images/outing/8.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">9 / 15</div>
+                    <img src="assets/images/outing/9.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">10 / 15</div>
+                    <img src="assets/images/outing/10.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">11 / 15</div>
+                    <img src="assets/images/outing/11.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">12 / 15</div>
+                    <img src="assets/images/outing/12.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">13 / 15</div>
+                    <img src="assets/images/outing/13.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">14 / 15</div>
+                    <img src="assets/images/outing/14.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">15 / 15</div>
+                    <img src="assets/images/outing/15.jpg" style="width:100%">
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+
+            <div class="top-footer">
+                <a id="logo2" class="footer" href="index.html">STEM MAL</a>
+                <!--<div class="links">
+                    <div id="group1">
+                        <a href="#" class="link">TICKET SUBMISSION</a><a href="#" class="link">WEEBLY THEMES</a><a
+                            href="#" class="link">FAQs PAGE</a>
+                    </div>
+                    <div id="group2">
+                        <a href="#" class="link">SERVICES</a><a href="#" class="link">STORE</a>
+                    </div>
+                    <div id="group3">
+                        <a href="#" class="link">WIDGETKIT</a><a href="#" class="link">SHOWCASE</a><a href="#"
+                            class="link">SUPPORT</a>
+                    </div>
+                    <div id="group3">
+                        <a href="#" class="link">HOMEPAGE</a><a href="#" class="link">RESOURCES</a><a href="#"
+                            class="link">CONTACT</a><a href="#" class="link">ABOUT</a>
+                    </div>
+                </div>-->
+            </div>
+            <img src="assets/images/logo.png" alt="MAL">
+            <div class="line"></div>
+
+            <div class="bottom-footer">
+
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/STEMMAL?mibextid=ZbWKwL"><i class="fa fa-facebook fa-2x"
+                                aria-hidden="false"></i></a>
+                    </li>
+                    <li><a href="https://instagram.com/stem_mal?igshid=MzNlNGNkZWQ4Mg"><i class="fa fa-instagram fa-2x"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/stem-model-arab-league/"><i
+                                class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+
+                <p>Copyright © 2023 STEM MAL. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

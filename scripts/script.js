@@ -45,7 +45,7 @@ function automatic() {
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}
     showSlides(slideIndex)
-    timeout = setTimeout(automatic, 2000)
+    timeout = setTimeout(automatic, 4000)
 }
 
 automatic()

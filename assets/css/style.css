@@ -9,7 +9,7 @@
 }
 
 .container {
-    max-width: 1300px;
+
     margin: 0 auto;
     overflow: auto;
     padding: 0 10px;
@@ -25,13 +25,14 @@ a {
 
 
 nav {
-    background-color: #1b1b13;
+    background-color: #1a1a1a;
 }
 
 nav div {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1300px;
 }
 
 nav ul,
@@ -185,7 +186,7 @@ footer p {
         width: 100px;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 905px) {
     #nav {
         display: flex;
         flex-direction: column;
@@ -213,5 +214,13 @@ footer p {
     }
     #group1, #group2, #group3, #group4 {
         gap: 10px;
+    }
+}
+@media (max-width: 718px) {
+    #nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 }
