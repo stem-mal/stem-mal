@@ -515,15 +515,7 @@ input[type=submit]:hover {
     margin-bottom: 35px;
 }
 
-#about-us {
-    display: flex;
-    flex-direction: column;
-    width: 75%;
-    text-align: left;
-    margin-bottom: 20px;
-    align-items: center;
-    justify-items: center;
-}
+
 
 #about-us .rectangle {
     width: 150px;
@@ -580,9 +572,17 @@ input[type=submit]:hover {
 #job-downloads h2 {
     font-family: 'Poppins', sans-serif;
 }
-
+#about-us {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    text-align: left;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-items: center;
+}
 #conference-div,
-#application-div {
+#application-div  {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -635,6 +635,28 @@ input[type=submit]:hover {
 
     50% {
         border-color: white;
+    }
+}
+@media(max-width: 768px) {
+    #conference-div,
+    #application-div, #about-us {
+        width: 100%;            
+    }
+    #conference-div p,
+    #application-div p, #about-us p{
+        font-size: 2vh;           
+    }
+}
+@media(max-width: 604px) {
+    #conference-div p,
+    #application-div p, #about-us p{
+        font-size: 1.7vh;           
+    }
+}
+@media(max-width: 474px) {
+    #conference-div p,
+    #application-div p, #about-us p{
+        font-size: 1.3vh;           
     }
 }
 
