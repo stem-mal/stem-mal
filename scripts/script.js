@@ -10,7 +10,7 @@ function typeWriter() {
 }
 
 typeWriter();
-/*let slideIndex = 1;
+let slideIndex = 1;
 showSlides(slideIndex);
 var timeout
 // Next/previous controls
@@ -61,7 +61,7 @@ function automatic() {
 }
 
 automatic()
-*/
+
 
 
 
