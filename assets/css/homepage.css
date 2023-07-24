@@ -95,6 +95,16 @@ main a:hover {
     align-items: center;
 }
 
+.member a {
+    text-decoration: none;
+    target= ”_blank”; 
+    color: hsl(0, 0%, 25%);
+}
+.member a:hover {
+    color: #d28c01f4;
+    transition: 0.2s;
+}
+
 .member-initials {
     font-size: 25px;
     color: black;
