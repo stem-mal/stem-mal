@@ -97,7 +97,7 @@ main a:hover {
 
 .member a {
     text-decoration: none;
-    target= ”_blank”; 
+
     color: hsl(0, 0%, 25%);
 }
 .member a:hover {
