@@ -5,6 +5,7 @@ function typeWriter() {
   if (index < text.length) {
     h2Element.innerHTML += text.charAt(index);
     index++;
+    
     setTimeout(typeWriter, 50);
   }
 }
