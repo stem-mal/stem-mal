@@ -1,163 +1,183 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STEM MAL</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/logo.ico">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/homepage.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>STEM MAL</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="description" content=" ">
+  <meta name="keywords" content="html, css, javascript, jquery">
+  <meta name="author" content="">
+
+  <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+  <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/vendor/aos.css">
+  <link rel="stylesheet" href="css/vendor/animate.min.css">
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
 
-<body>
-    <nav class="nav">
-        <div id="nav" class="container">
-            <a id="logo" class="nav" href="index.html">STEM MAL</a>
-            <div class="nav-items">
-                <ul class="nav">
-                    <a class="nav" href="about.html">
-                        <li class="nav">About</li>
-                    </a>
-                    <a class="nav" href="our-team.html">
-                        <li class="nav">Team</li>
-                    </a>
-                    <a class="nav" href="contact.html">
-                        <li class="nav">Contact</li>
-                    </a>
-                    <a class="nav" href="application.html">
-                        <li class="nav">Application</li>
-                    </a>
-                    <a class="nav" href="jobs.html">
-                        <li class="nav">Jobs</li>
-                    </a>
-                    <a class="nav" href="conference.html">
-                        <li class="nav">Conference</li>
-                    </a>
-                    <a class="nav" href="outing.html">
-                        <li class="nav">Outing</li>
-                    </a>
-                    <a class="nav" href="articles.html">
-                        <li class="nav">Articles</li>
-                    </a>
+<body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
 
-                </ul>
-
-            </div>
-    </nav>
-    <main>
-        <div class="containter" id="conference">
-            <h1>Conference</h1>
-            <div class="rectangle"></div>
-
+  <nav class="unslate_co--site-mobile-menu">
+    <div class="close-wrap d-flex">
+      <a href="#" class="d-flex ml-auto js-menu-toggle">
+        <span class="close-label">Close</span>
+        <div class="close-times">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
         </div>
-
-    </main>
-    <div class="container" id="conference-div">
-        <p>Conference refers to a formal meeting or gathering of delegates who come together to discuss a specific
-            topic or issue. Conferences are typically organized with the purpose of sharing information, exchanging
-            ideas, and fostering collaboration among participants and talking specifically about some of the issues
-            that the Arab countries face in a formal way and gaining new skills like public speaking and diplomacy.
-        </p>
-        <div class="slideshow">
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-                <span class="dot" onclick="currentSlide(6)"></span>
-                <span class="dot" onclick="currentSlide(7)"></span>
-                <span class="dot" onclick="currentSlide(8)"></span>
-                <span class="dot" onclick="currentSlide(9)"></span>
-                <span class="dot" onclick="currentSlide(10)"></span>
-                <span class="dot" onclick="currentSlide(11)"></span>
-                <br>
-                <i id="play" class="fa fa-play" aria-hidden="true" onclick="play()"></i>
-                <i id="pause" class="fa fa-pause" aria-hidden="true" onclick="pause()"></i>
-
-            </div>
-            <div class="slideshow-container">
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 11</div>
-                    <img src="assets/images/conference/1.jpg" style="width:100%">
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 11</div>
-                    <img src="assets/images/conference/2.jpg" style="width:100%">
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 11</div>
-                    <img src="assets/images/conference/3.jpg" style="width:100%">
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">4 / 11</div>
-                    <img src="assets/images/conference/4.jpg" style="width:100%">
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">5 / 11</div>
-                    <img src="assets/images/conference/5.jpg" style="width:100%">
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">6 / 11</div>
-                    <img src="assets/images/conference/6.jpg" style="width:100%">
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">7 / 11</div>
-                    <img src="assets/images/conference/7.jpg" style="width:100%">
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">8 / 11</div>
-                    <img src="assets/images/conference/8.jpg" style="width:100%">
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">9 / 11</div>
-                    <img src="assets/images/conference/9.jpg" style="width:100%">
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">10 / 11</div>
-                    <img src="assets/images/conference/10.jpg" style="width:100%">
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">11 / 11</div>
-                    <img src="assets/images/conference/11.jpg" style="width:100%">
-                </div>
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-        </div>
+      </a>
     </div>
-    <footer class="footer">
+    <div class="site-mobile-inner"></div>
+  </nav>
+
+  <div class="unslate_co--site-wrap">
+
+    <div class="unslate_co--site-inner">
+
+      <nav class="unslate_co--site-nav site-nav-target">
+
         <div class="container">
 
-            <div class="top-footer">
-                <a id="logo2" class="footer" href="index.html">STEM MAL</a>
+          <div class="row align-items-center justify-content-between text-left">
+            <div class="col-md-5 text-right">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li class="has-children">
+                  <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li><a href="index.html#portfolio-section" class="nav-link">Gallary</a></li>
+                <li><a href="index.html#about-section" class="nav-link">About</a></li>
+                <li><a href="index.html#services-section" class="nav-link">Committees</a></li>
+              </ul>
             </div>
-            <img src="assets/images/logo.png" alt="MAL">
-            <div class="line"></div>
-
-            <div class="bottom-footer">
-
-                <ul class="social-icons">
-                    <li><a href="https://www.facebook.com/STEMMAL?mibextid=ZbWKwL"><i class="fa fa-facebook fa-2x"
-                                aria-hidden="false"></i></a>
-                    </li>
-                    <li><a href="https://instagram.com/stem_mal?igshid=MzNlNGNkZWQ4Mg"><i class="fa fa-instagram fa-2x"
-                                aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.linkedin.com/company/stem-model-arab-league/"><i
-                                class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
-
-                <p>Copyright © 2023 STEM MAL. All rights reserved.</p>
+            <div class="site-logo pos-absolute">
+              <a href="index.html" class="unslate_co--site-logo">STEM MAL<span>.</span></a>
             </div>
+            <div class="col-md-5 text-right text-lg-left">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="conference.html" class="nav-link">Conference</a></li>
+                <li><a href="outing.html" class="nav-link">Outing</a></li>
+                <li><a href="index.html#journal-section" class="nav-link">Articles</a></li>
+                <li><a href="board.html" class="nav-link">Board</a></li>
+              </ul>
+
+              <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
+                <li><a href="#" class="js-menu-toggle">Menu</a></li>
+              </ul>
+
+            </div>
+          </div>
         </div>
+
+      </nav>
+      <!-- END nav -->
+
+      <div class="cover-v1 gradient-bottom-black jarallax">
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-md-10 mx-auto text-center">
+              <h1 class="heading" data-aos="fade-up">Conferences</h1>
+              <h2 class="subheading" data-aos="fade-up" data-aos-delay="100">Formal gathering of delegates to discuss
+                Arab country issues, fostering collaboration and skill development in public speaking and diplomacy.</h2>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- dov -->
+        <a href="#portfolio-single-section" class="mouse-wrap smoothscroll">
+          <span class="mouse">
+            <span class="scroll"></span>
+          </span>
+          <span class="mouse-label">Scroll</span>
+        </a>
+
+      </div>
+      <!-- END .cover-v1 -->
+
+      <div class="container">
+        <div class="portfolio-single-wrap unslate_co--section" id="portfolio-single-section">
+
+          <div class="portfolio-single-inner">
+            <h2 class="heading-portfolio-single-h2">Conferences Gallary</h2>
+
+            <div class="row justify-content-between mb-5">
+              <div class="col-12 mb-4">
+                <div class="owl-carousel single-slider">
+                  <figure class="mb-4">
+                    <img src="images/conference1.jpg" alt="Image" class="img-fluid">
+                  </figure>
+                  <figure class="mb-4">
+                    <img src="images/conference2.jpg" alt="Image" class="img-fluid">
+                  </figure>
+                  <figure class="mb-4">
+                    <img src="images/conference3.jpg" alt="Image" class="img-fluid">
+                  </figure>
+                  <figure class="mb-4">
+                    <img src="images/conference4.jpg" alt="Image" class="img-fluid">
+                  </figure>
+                  <figure class="mb-4">
+                    <img src="images/conference5.jpg" alt="Image" class="img-fluid">
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="unslate_co--footer unslate_co--section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+
+            <div class="footer-site-logo"><a href="#">STEM MAL<span>.</span></a></div>
+
+            <ul class="footer-site-social">
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Dribbble</a></li>
+              <li><a href="#">Behance</a></li>
+            </ul>
+
+            <p class="site-copyright">
+
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script> This website is made with <i class="icon-heart" aria-hidden="true"></i>
+              by <a href="https://github.com/Muhammed4E" target="_blank">Muhammed Nasser</a> and Muhammed Zaki
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+
+          </div>
+        </div>
+      </div>
     </footer>
-    <script src="scripts/gallery.js"></script>
+
+  </div>
+
+  <!-- Loader -->
+  <div id="unslate_co--overlayer"></div>
+  <div class="site-loader-wrap">
+    <div class="site-loader"></div>
+  </div>
+
+  <script src="js/scripts-dist.js"></script>
+  <script src="js/main.js"></script>
+
+
 </body>
 
 </html>
