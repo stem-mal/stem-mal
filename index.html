@@ -1,226 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STEM MAL</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/logo.ico">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/homepage.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body>
-    <nav class="nav">
-        <div id="nav" class="container">
-            <a id="logo" class="nav" href="index.html">STEM MAL</a>
-            <div class="nav-items">
-                <ul class="nav">
-                    <a class="nav" href="about.html">
-                        <li class="nav">About</li>
-                    </a>
-                    <a class="nav" href="our-team.html">
-                        <li class="nav">Team</li>
-                    </a>
-                    <a class="nav" href="contact.html">
-                        <li class="nav">Contact</li>
-                    </a>
-                    <a class="nav" href="application.html">
-                        <li class="nav">Application</li>
-                    </a>
-                    <a class="nav" href="jobs.html">
-                        <li class="nav">Jobs</li>
-                    </a>
-                    <a class="nav" href="conference.html">
-                        <li class="nav">Conference</li>
-                    </a>
-                    <a class="nav" href="outing.html">
-                        <li class="nav">Outing</li>
-                    </a>
-                    <a class="nav" href="articles.html">
-                        <li class="nav">Articles</li>
-                    </a>
-
-                </ul>
-
-            </div>
-    </nav>
-    <div class="container" id="home-image">
-        <img src="assets/images/Big Logo.jpg" alt="STEM-MAL">
-        <div class="centered">
-            <h1>STEM MAL</h1><br>
-            <h2 id="auto-type"></h2>
-        </div>
-
-    </div>
-
-    <div class="container" id="learn-container">
-        <h1>Learn More</h1>
-        <div class="rectangle"></div>
-        <div id="learn-items">
-            <div class="learn"><img src="assets/images/thumbnails/application.jpg" alt="application">
-                <h2>Application Process</h2>
-                <p>After the first filtration process of the recruitment of members we begin to prepare for an offline
-                    interview to know about the applicants and their skills.</p>
-                    <a href="application.html"><button>More Info</button></a>
-            </div>
-
-            <div class="learn"><img src="assets/images/thumbnails/outing.jpg" alt="outing">
-                <h2>Outing</h2>
-                <p>After finishing the first part of the training of the team we began to prepare for an offline meeting
-                    for the team to take rest from our work in a day full of great activities.</p>
-                <a href="outing.html"><button>More Info</button></a>
-            </div>
-
-            <div class="learn"><img src="assets/images/thumbnails/conference.jpg" alt="conference">
-                <h2>Conference</h2>
-                <p>At the end of the season we begin to prepare for the most important event for our team which is the
-                    conference after choosing our delegates and topic of the season.</p>
-                <a href="conference.html"><button>More Info</button></a>
-            </div>
-        </div>
-    </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>example.com</title>
+    <style>
+      html, body {
+        height: 100%;
+      }
+      body {
+        background-color: #fff;
+        background: radial-gradient(circle at center, #fff 0%, #f8f8f8 75%, #ebebeb 100%);
+        color: #222;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      main {
+        padding: 1rem;
+        text-align: center;
+      }
+      h1 {
+        font-size: 2.5rem;
+        line-height: 1.1;
+        margin: 0;
+      }
+      @media screen and (max-width: 480px) {
+        h1 {
+          font-size: 1.5rem;
+        }
+      }
+      h1::after {
+        content: "";
+        background-color: #ffe800;
+        background: repeating-linear-gradient(45deg, #ffe800, #ffe800 0.5rem, #222 0.5rem, #222 1.0rem);
+        display: block;
+        height: 0.5rem;
+        margin-top: 1rem;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      p {
+        margin: 1rem 0 0 0;
+      }
+    </style>
+  </head>
+  <body>
     <main>
-        <section class="cards" style="display: none;">
-            <div class="container">
-                <div class="card" id="first">
-                    <img src="assets/images/thumbnails/new-york.jpg" alt="new-york" class="thumbnail"><a href="#"
-                        class="tag" title="See similar tags.">ARCHITECTURE</a>
-                    <a href="blog-posts/post1.html" class="title-link">
-                        <h3 class="title">How the New York landscape shaped modern architecture.</h3>
-                    </a>
-                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse harum nobis
-                        explicabo asperiores dolor ad commodi facere eum dignissimos ullam debitis aspernatur totam
-                        culpa
-                        omnis blanditiis facilis maiores, earum eaque!</p>
-                    <div class="author-details">
-                        <img src="assets/images/authors/author1.webp" alt="nick-smith" class="profile"><a href="#"
-                            title="Read more from the author." class="author">Nick Smith</a>
-                        <p class="date">Two days ago</p>
-                    </div>
-                </div>
-
-                <div class="card" id="second">
-                    <img src="assets/images/thumbnails/tesla.jpg" alt="tesla" class="thumbnail"><a href="#" class="tag"
-                        title="See similar tags.">AUTOMOTIVE</a>
-                    <a href="#" class="title-link">
-                        <h3 class="title">Will electric cars replace their gas counterparts?</h3>
-                    </a>
-                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse harum nobis
-                        explicabo asperiores dolor ad commodi facere eum dignissimos ullam debitis aspernatur totam
-                        culpa
-                        omnis blanditiis facilis maiores, earum eaque!</p>
-                    <div class="author-details">
-                        <img src="assets/images/authors/author2.jpg" alt="kali-ayaan" class="profile"><a href="#"
-                            title="Read more from the author." class="author">Kali Ayaan</a>
-                        <p class="date">29 March 2022</p>
-                    </div>
-                </div>
-
-                <div class="card" id="third">
-                    <img src="assets/images/thumbnails/healthy-food.webp" alt="healthy-food" class="thumbnail"><a
-                        href="" class="tag" title="See similar tags.">FOOD</a>
-                    <a href="#" class="title-link">
-                        <h3 class="title">Food recipes that are easy to make and healthy.</h3>
-                    </a>
-                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse harum nobis
-                        explicabo asperiores dolor ad commodi facere eum dignissimos ullam debitis aspernatur totam
-                        culpa
-                        omnis blanditiis facilis maiores, earum eaque!</p>
-                    <div class="author-details">
-                        <img src="assets/images/authors/author3.jpg" alt="kevin-adams" class="profile"><a href="#"
-                            title="Read more from the author." class="author">Kevin Adams</a>
-                        <p class="date">3 Hours ago</p>
-                    </div>
-                </div>
-
-                <div class="card" id="fourth">
-                    <img src="assets/images/thumbnails/smartphones.jpg" alt="smartphones" class="thumbnail"><a href="#"
-                        class="tag" title="See similar tags.">TECHNOLOGY</a>
-                    <a href="#" class="title-link">
-                        <h3 class="title">Have we reached the limit of smartphone computing?</h3>
-                    </a>
-                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse harum nobis
-                        explicabo
-                        asperiores dolor ad commodi facere eum dignissimos ullam debitis aspernatur totam culpa omnis
-                        blanditiis
-                        facilis maiores, earum eaque!</p>
-                    <div class="author-details">
-                        <img src="assets/images/authors/author4.jpg" alt="Anna John" class="profile"><a href="#"
-                            title="Read more from the author." class="author">Anna John</a>
-                        <p class="date">25 Dec 2022</p>
-                    </div>
-                </div>
-
-                <div class="card" id="fifth">
-                    <img src="assets/images/thumbnails/ps5.jpg" alt="ps5" class="thumbnail"><a href="" class="tag"
-                        title="See similar tags.">GAMING</a>
-                    <a href="#" class="title-link">
-                        <h3 class="title">Top 10 games you need to try if you have a Playstation 5!</h3>
-                    </a>
-                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse harum nobis
-                        explicabo
-                        asperiores dolor ad commodi facere eum dignissimos ullam debitis aspernatur totam culpa omnis
-                        blanditiis
-                        facilis maiores, earum eaque!</p>
-                    <div class="author-details">
-                        <img src="assets/images/authors/author5.jpg" alt="" class="profile"><a href="#"
-                            title="Read more from the author." class="author">James Robert</a>
-                        <p class="date">Yesterday</p>
-                    </div>
-                </div>
-
-                <div class="card" id="sixth">
-                    <img src="assets/images/thumbnails/airpods-max.jpg" alt="airpods-max" class="thumbnail"><a href="#"
-                        class="tag" title="See similar tags.">AUDIOPHILE</a>
-                    <a href="#" class="title-link">
-                        <h3 class="title">Has Dolby Atmos improved Airpods Max's audio quality?</h3>
-                    </a>
-                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse harum nobis
-                        explicabo
-                        asperiores dolor ad commodi facere eum dignissimos ullam debitis aspernatur totam culpa omnis
-                        blanditiis
-                        facilis maiores, earum eaque!</p>
-                    <div class="author-details">
-                        <img src="assets/images/authors/author6.webp" alt="noah-liah" class="profile"><a href="#"
-                            title="Read more from the author." class="author">Noah Liah</a>
-                        <p class="date">25 Jan 2023</p>
-                    </div>
-                </div>
-
-            </div>
-
-        </section>
+      <h1>example.com</h1>
+      <p>Our website is under construction.</p>
     </main>
-    <footer class="footer">
-        <div class="container">
-
-            <div class="top-footer">
-                <a id="logo2" class="footer" href="index.html">STEM MAL</a>
-            </div>
-            <img src="assets/images/logo.png" alt="MAL">
-            <div class="line"></div>
-
-            <div class="bottom-footer">
-
-                <ul class="social-icons">
-                    <li><a href="https://www.facebook.com/STEMMAL?mibextid=ZbWKwL"><i class="fa fa-facebook fa-2x"
-                                aria-hidden="false"></i></a>
-                    </li>
-                    <li><a href="https://instagram.com/stem_mal?igshid=MzNlNGNkZWQ4Mg"><i class="fa fa-instagram fa-2x"
-                                aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.linkedin.com/company/stem-model-arab-league/"><i
-                                class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
-
-                <p>Copyright © 2023 STEM MAL. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-    <script src="scripts/typing.js"></script>
-</body>
-
+  </body>
 </html>
